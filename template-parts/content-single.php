@@ -64,8 +64,6 @@
 				'after'       => '</div>',
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
-				'pagelink'    => '<span class="screen-reader-text">' . __('Page:', 'wordstar') . ' </span>%',
-				'separator'   => '<span class="screen-reader-text">, </span>',
 				) 
 			);
 		?>

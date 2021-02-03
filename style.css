@@ -3122,11 +3122,3 @@ article.hentry .edit-link a:hover,
 	border-color: transparent;
 	color: #fff;
 }
-.page-links > .page-links-title {
-	border: 0;
-	color: #1a1a1a;
-	height: auto;
-	margin: 0;
-	padding-right: 0.6153846154em;
-	width: auto;
-}
