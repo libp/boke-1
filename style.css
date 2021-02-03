@@ -3096,3 +3096,37 @@ article.hentry .edit-link a:hover,
 .header-search {
   border-color: #ffbe02;
 }
+
+/* add pages styles */
+.page-links {
+	clear: both;
+	margin: 0 0 10px;
+}
+.page-links a, .page-links > span {
+	border: 1px solid #d1d1d1;
+	display: inline-block;
+	height: auto;
+	padding: 3px 10px;
+	line-height: 1.6923076923em;
+	margin-right: 0.3076923077em;
+	text-align: center;
+	width: auto;
+}
+.page-links a {
+	background-color: #333;
+	border-color: #333;
+	color: #fff;
+}
+.page-links a:hover, .page-links a:focus {
+	background-color: #007acc;
+	border-color: transparent;
+	color: #fff;
+}
+.page-links > .page-links-title {
+	border: 0;
+	color: #1a1a1a;
+	height: auto;
+	margin: 0;
+	padding-right: 0.6153846154em;
+	width: auto;
+}

@@ -54,10 +54,20 @@
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( '页面:', 'boke-1' ),
-				'after'  => '</div>',
-			) );
+			// wp_link_pages( array(
+			// 	'before' => '<div class="page-links">' . esc_html__( '页面:', 'boke-1' ),
+			// 	'after'  => '</div>',
+			// ) );
+			wp_link_pages(
+				array(
+				'before'      => '<div class="page-links">',
+				'after'       => '</div>',
+				'link_before' => '<span>',
+				'link_after'  => '</span>',
+				'pagelink'    => '<span class="screen-reader-text">' . __('Page:', 'wordstar') . ' </span>%',
+				'separator'   => '<span class="screen-reader-text">, </span>',
+				) 
+			);
 		?>
 	</div><!-- .entry-content -->
 
